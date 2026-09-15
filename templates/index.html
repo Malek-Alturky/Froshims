@@ -9,7 +9,7 @@
         <input name="name" autocomplete="off" autofocus placeholder="Name" type="text">
 
         {% for sport in sports %}
-                <input name="sport" type="checkbox" value={{ sport }}> {{ sport }}
+                <input name="sport" type="radio" value={{ sport }}> {{ sport }}
         {% endfor %}
 
         <button type="submit">Register</button>
